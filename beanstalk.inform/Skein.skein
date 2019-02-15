@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1124">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">beanstalk</command>
+        <result xml:space="preserve">
+
+
+Your family has been poor your whole life. You work hard, for little reward. But all that is about to change. You traded your family's only cow to this old man for some magic beans! Clearly you got the better side of the deal. "Some people just don't know what they have, until they lose it," you say to yourself, whistling as you head home.
+
+InformTest
+An Interactive Fiction by Douglas Kiang
+Release 1 / Serial number 190213 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Cottage
+Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+            <child nodeId="node-1138"></child>
+            <child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Garden
+The garden is hot and dry and offers little in the way of shade. This used to grow a meager supply of vegetables for your family to subsist on but lately the ground has dried out and very little grows here now. There is a hose attached to a spigot on the side of the house. The Cottage is to the north.
+
+You can see a watering can (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+            <child nodeId="node-1131"></child>
+            <child nodeId="node-1128"></child>
+            <child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">x spigot</command>
+        <result xml:space="preserve">An old spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">x nozzle</command>
+        <result xml:space="preserve">An old spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">x ground</command>
+        <result xml:space="preserve">The ground is baked by the sun and is hard and dry. Nothing can be planted here unless it rains.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">take can</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">x can</command>
+        <result xml:space="preserve">An old rusty watering can.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">take watering can</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">x can</command>
+        <result xml:space="preserve">An old rusty watering can.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">x ground</command>
+        <result xml:space="preserve">The ground is baked by the sun and is hard and dry. Nothing can be planted here unless it rains.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+        </children>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">x hose</command>
+        <result xml:space="preserve">The hose is about six feet long and is made of green rubber. It is attached tightly to the spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">take hose</command>
+        <result xml:space="preserve">You can't detach the hose from the spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Entry Hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first unlocking the oak door with the brass key, then opening the door) 
+
+Billiard Room
+The Billiard Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  magic beans
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+        </children>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve">x magic beans</command>
+        <result xml:space="preserve">They are rainbow-colored, shiny, and slightly warm to the touch, as if they have some strange, magical power. Or it could be just because they've been in your pocket all day.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+            <child nodeId="node-1140"></child>
+        </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">x player</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Magic beans
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Garden
+The garden is hot and dry and offers little in the way of shade. This used to grow a meager supply of vegetables for your family to subsist on but lately the ground has dried out and very little grows here now. There is a hose attached to a spigot on the side of the house. The Cottage is to the north.
+
+You can see Toyota (empty) and a watering can (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">enter Toyota.</command>
+        <result xml:space="preserve">You get into Toyota.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1146"></child>
+        </children>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Your family has been poor your whole life. You work hard, for little reward. But all that is about to change. You traded your family's only cow to this old man for some magic beans! Clearly you got the better side of the deal. "Some people just don't know what they have, until they lose it," you say to yourself, whistling as you head home.
+
+InformTest
+An Interactive Fiction by Douglas Kiang
+Release 1 / Serial number 190213 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Cottage
+Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+        </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Cottage
+Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">x roof</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
