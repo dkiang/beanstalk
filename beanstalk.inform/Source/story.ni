@@ -10,7 +10,7 @@ Player is carrying Magic Beans. The description of Magic Beans is "They are rain
 
 Garden is a room. It is south of Cottage. "The garden is hot and dry and offers little in the way of shade. This used to grow a meager supply of vegetables for your family to subsist on but lately the ground has dried out and very little grows here now. There is a hose attached to a spigot on the side of the house. The Cottage is to the north."
 
-Ground is an undescribed thing in the Garden. The description is "The ground is baked by the sun and is hard and dry. Nothing can be planted here unless it rains."
+Ground is an undescribed thing in the Garden. Ground can be wet or dry. Ground is dry. The description is "The ground is baked by the sun and is hard and dry. Nothing can be planted here unless it rains." 
 
 Spigot is scenery in the garden. The description is "An old spigot."
 
@@ -22,3 +22,5 @@ Understand "faucet", "nozzle" as Spigot.
 
 The watering can is a container. It is in the Garden. The description is "An old rusty watering can."
 
+Understand "plant [something] in [something]" as planting it in.
+Planting it in is an action applying to two things.

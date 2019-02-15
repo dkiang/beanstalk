@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/dkiang/Documents/Classroom/Intro Comp Sci/14-15/InformTest.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/dkiang/Documents/GitHub/inform/beanstalk/beanstalk.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/dkiang/Documents/Classroom/Intro Comp Sci/14-15/InformTest.inform"
-release to "/Users/dkiang/Documents/Classroom/Intro Comp Sci/14-15/InformTest.materials/Release"
+project folder "/Users/dkiang/Documents/GitHub/inform/beanstalk/beanstalk.inform"
+release to "/Users/dkiang/Documents/GitHub/inform/beanstalk/beanstalk.materials/Release"
 
 ! Blorb instructions
 
-storyfile leafname "InformTest.gblorb"
-storyfile "/Users/dkiang/Documents/Classroom/Intro Comp Sci/14-15/InformTest.inform/Build/output.ulx" include
-ifiction "/Users/dkiang/Documents/Classroom/Intro Comp Sci/14-15/InformTest.inform/Metadata.iFiction" include
+storyfile leafname "Beans Talk.gblorb"
+storyfile "/Users/dkiang/Documents/GitHub/inform/beanstalk/beanstalk.inform/Build/output.ulx" include
+ifiction "/Users/dkiang/Documents/GitHub/inform/beanstalk/beanstalk.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 
@@ -21,7 +21,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover
 placeholder [IFID] = "8996B395-D1BC-4A38-9770-683A2A2F6933"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2019"
-placeholder [TITLE] = "InformTest"
+placeholder [TITLE] = "Beans Talk"
 placeholder [AUTHOR] = "Douglas Kiang"
 placeholder [BLURB] = "A work of interactive fiction."
 
