@@ -20,6 +20,8 @@ Instead of taking Hose: say "You can't detach the hose from the spigot."
 
 Understand "faucet", "nozzle" as Spigot.
 
+Understand "tube" as Hose.
+
 The watering can is a container. It is in the Garden. The description is "An old rusty watering can."
 
 Understand "plant [something] in [something]" as planting it in.
