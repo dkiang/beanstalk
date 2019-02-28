@@ -11,7 +11,7 @@ Your family has been poor your whole life. You work hard, for little reward. But
 
 Beans Talk
 An Interactive Fiction by Douglas Kiang
-Release 1 / Serial number 190224 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190228 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Cottage
 Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
@@ -30,13 +30,15 @@ Home sweet home! You are back home in your cozy cottage with a straw roof and th
 Garden
 The garden is hot and dry and offers little in the way of shade. This used to grow a meager supply of vegetables for your family to subsist on but lately the ground has dried out and very little grows here now. There is a hose attached to a spigot on the side of the house. The Cottage is to the north.
 
-You can see Spigot and a watering can (empty) here.
+You can see Spigot, garden hose and a watering can (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1038"></child>
             <child nodeId="node-1041"></child>
+            <child nodeId="node-1608"></child>
             <child nodeId="node-1018"></child>
+            <child nodeId="node-1631"></child>
             <child nodeId="node-1013"></child>
             <child nodeId="node-1406"></child>
             <child nodeId="node-1010"></child>
@@ -65,7 +67,8 @@ You can see Spigot and a watering can (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1603"></child>
+            <child nodeId="node-1011"></child>
             <child nodeId="node-1247"></child>
         </children>
     </item>
@@ -92,6 +95,40 @@ You can see Spigot and a watering can (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1603">
+        <command xml:space="preserve">open spigot</command>
+        <result xml:space="preserve">Try turn on spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1604"></child>
+        </children>
+    </item>
+    <item nodeId="node-1604">
+        <command xml:space="preserve">turn on spigot</command>
+        <result xml:space="preserve">You turn on spigot. The water rushes out of the other end of the hose and vanishes into the ground, several feet short of the garden. With a heavy sigh, you turn the spigot off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1605"></child>
+        </children>
+    </item>
+    <item nodeId="node-1605">
+        <command xml:space="preserve">plant beans in ground</command>
+        <result xml:space="preserve">You plant the beans in the ground and before you can cover them up they have sprouted!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1606"></child>
+        </children>
+    </item>
+    <item nodeId="node-1606">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1406">
         <command xml:space="preserve">turn on spigot</command>
         <result xml:space="preserve">You turn on spigot. The water rushes out of the other end of the hose and vanishes into the ground, several feet short of the garden. WIth a heavy sigh, you turn the spigot off.
@@ -103,7 +140,16 @@ You can see Spigot and a watering can (empty) here.
     </item>
     <item nodeId="node-1409">
         <command xml:space="preserve">open spigot</command>
-        <result xml:space="preserve">Try turning it on.
+        <result xml:space="preserve">Try turn on spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1600"></child>
+        </children>
+    </item>
+    <item nodeId="node-1600">
+        <command xml:space="preserve">x ground</command>
+        <result xml:space="preserve"> The ground is baked by the sun and is hard and dry. Nothing can be planted here yet. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -151,6 +197,146 @@ You can see Spigot and a watering can (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1631">
+        <command xml:space="preserve">take hose</command>
+        <result xml:space="preserve">You pick up one end of the hose. The other end is attached tightly to the spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1638"></child>
+            <child nodeId="node-1632"></child>
+        </children>
+    </item>
+    <item nodeId="node-1632">
+        <command xml:space="preserve">x can</command>
+        <result xml:space="preserve"> An old rusty watering can. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1633"></child>
+        </children>
+    </item>
+    <item nodeId="node-1633">
+        <command xml:space="preserve">put hose in can</command>
+        <result xml:space="preserve">You put Hose into the watering can.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1638">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  garden hose
+  Magic Beans
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1639"></child>
+        </children>
+    </item>
+    <item nodeId="node-1639">
+        <command xml:space="preserve">x hose</command>
+        <result xml:space="preserve">The hose is about six feet long and is made of green rubber. It is attached tightly to the spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1640"></child>
+        </children>
+    </item>
+    <item nodeId="node-1640">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1641"></child>
+        </children>
+    </item>
+    <item nodeId="node-1641">
+        <command xml:space="preserve">spigot</command>
+        <result xml:space="preserve">An old spigot.
+
+Spigot is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1642"></child>
+        </children>
+    </item>
+    <item nodeId="node-1642">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1643"></child>
+        </children>
+    </item>
+    <item nodeId="node-1643">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1644"></child>
+        </children>
+    </item>
+    <item nodeId="node-1644">
+        <command xml:space="preserve">spigot</command>
+        <result xml:space="preserve">An old spigot.
+
+Spigot is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1645"></child>
+        </children>
+    </item>
+    <item nodeId="node-1645">
+        <command xml:space="preserve">turn on spigot</command>
+        <result xml:space="preserve">You turn on spigot. The water rushes out of the other end of the hose and vanishes into the ground, several feet short of the garden. With a heavy sigh, you turn the spigot off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1646"></child>
+        </children>
+    </item>
+    <item nodeId="node-1646">
+        <command xml:space="preserve">open spigot</command>
+        <result xml:space="preserve">Try turn on spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1647"></child>
+        </children>
+    </item>
+    <item nodeId="node-1647">
+        <command xml:space="preserve">x beans</command>
+        <result xml:space="preserve">They are rainbow-colored, shiny, and slightly warm to the touch, as if they have some strange, magical power. Or it could just be because they've been sitting in your pocket all day. You can't wait to plant them in the ground and see what sprouts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1648"></child>
+        </children>
+    </item>
+    <item nodeId="node-1648">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Cottage
+Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1649"></child>
+        </children>
+    </item>
+    <item nodeId="node-1649">
+        <command xml:space="preserve">x roof</command>
+        <result xml:space="preserve">Made of straw, it looks as if a strong wind could blow it away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1018">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
@@ -167,6 +353,121 @@ Entry Hall
 
 Billiard Room
 The Billiard Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1608">
+        <command xml:space="preserve">put hose in watering can</command>
+        <result xml:space="preserve">(first taking Hose)
+
+You put Hose into the watering can.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1613"></child>
+        </children>
+    </item>
+    <item nodeId="node-1613">
+        <command xml:space="preserve">x can</command>
+        <result xml:space="preserve"> An old rusty watering can. 
+
+In the watering can is Hose.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1614"></child>
+        </children>
+    </item>
+    <item nodeId="node-1614">
+        <command xml:space="preserve">turn on spigot</command>
+        <result xml:space="preserve">Cool, clear water rushes out of the other end of the hose, filling the watering can until it overflows. You turn off the spigot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1615"></child>
+        </children>
+    </item>
+    <item nodeId="node-1615">
+        <command xml:space="preserve">x can</command>
+        <result xml:space="preserve">The can is full of cool, clear water.
+
+In the watering can is Hose.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1616"></child>
+        </children>
+    </item>
+    <item nodeId="node-1616">
+        <command xml:space="preserve">rmove hose</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1617"></child>
+        </children>
+    </item>
+    <item nodeId="node-1617">
+        <command xml:space="preserve">remove hose</command>
+        <result xml:space="preserve">You aren't wearing Hose.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1625"></child>
+        </children>
+    </item>
+    <item nodeId="node-1625">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1626"></child>
+        </children>
+    </item>
+    <item nodeId="node-1626">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Your family has been poor your whole life. You work hard, for little reward. But all that is about to change. You traded your family's only cow to this old man for some magic beans! Clearly you got the better side of the deal. "Some people just don't know what they have, until they lose it," you say to yourself, whistling as you head home.
+
+Beans Talk
+An Interactive Fiction by Douglas Kiang
+Release 1 / Serial number 190228 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Cottage
+Home sweet home! You are back home in your cozy cottage with a straw roof and thin, threadbare walls. The garden is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1627"></child>
+        </children>
+    </item>
+    <item nodeId="node-1627">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Garden
+The garden is hot and dry and offers little in the way of shade. This used to grow a meager supply of vegetables for your family to subsist on but lately the ground has dried out and very little grows here now. There is a hose attached to a spigot on the side of the house. The Cottage is to the north.
+
+You can see Spigot, Hose and a watering can (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1628"></child>
+        </children>
+    </item>
+    <item nodeId="node-1628">
+        <command xml:space="preserve">take hose</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1629"></child>
+        </children>
+    </item>
+    <item nodeId="node-1629">
+        <command xml:space="preserve">x hose</command>
+        <result xml:space="preserve">The hose is about six feet long and is made of green rubber. It is attached tightly to the spigot.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
